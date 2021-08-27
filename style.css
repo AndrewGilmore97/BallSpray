@@ -1,0 +1,217 @@
+body {
+    background-color: white;
+}
+
+/* General Website CSS */
+
+h1 {
+    font-family: 'Play', sans-serif;
+}
+
+h1:hover {
+    color: #475c5a;
+}
+
+#frontPage {
+    background-color: #c1c7c7;
+}
+
+#featuresPage {
+    color: #c6ffc1;
+    background-color:#34656d;
+}
+
+#reviewsPage {
+    background-color:#a4d3d3;
+}
+
+.row {
+    margin:0;
+}
+
+.container-fluid {
+    padding: 0px 30px;
+}
+
+/* Navigation Bar CSS */
+
+.navbar {
+    height:90px;
+    background-color: #234449;
+}
+
+.navTitle {
+    font-size: 1.7rem;
+}
+
+.buyNavBtn {
+    padding:8px 20px;
+    margin-left: 10px;
+}
+
+.buyNavBtn:hover {
+    background-color:rgb(177, 201, 211);
+}
+
+.nav-link {
+    margin: 0px 15px 0;
+}
+
+/* BallSpray Image */
+
+.ballsprayImg {
+    height:600px;
+    width:662px;
+    margin-top:80px;
+    mix-blend-mode: multiply;
+    transform: scaleX(-1);
+}
+
+.ballsprayImgPad {
+    padding-right: 0;
+}
+
+/* BallSpray Title CSS */
+
+.ballsprayTitleContainer {
+    padding-top: 100px;
+    padding-left: 120px;
+    text-align: left;
+    color: #334443;
+    text-align: center;
+}
+
+.ballsprayTitle {
+    text-align: left;
+    margin-bottom:40px;
+    font-size: 3.7rem;
+}
+
+.mainTitle {
+    font-weight:bold;
+}
+
+/* Features Section */
+
+.featuresContent {
+    padding:220px 20px 280px;
+    text-align: center;
+}
+
+.featureIcons {
+    font-size:40px;
+    margin-bottom: 20px;
+}
+
+.featureIcons:hover {
+    color:azure;
+}
+
+.featurePara {
+    padding:0 18px;
+    margin-top: 45px;
+}
+
+/* Reviews Section*/
+
+.reviewReel {
+    padding:200px 20px 250px;
+    text-align: center;
+}
+
+.reviewImg {
+    width:200px;
+    height:200px;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+.CaroTransportIcon {
+    filter:drop-shadow(5px 5px 4px rgb(119, 118, 118));
+    font-size: 80px;
+}
+
+/*Buy it now section*/
+
+#buyPage {
+    background-color:#c1c7c7;
+    padding: 140px 90px;
+}
+
+.priceTitle {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/*Contact section*/
+
+#contactPage {
+    background-color: #34656d;
+    padding: 90px 150px 130px;
+}
+
+.contactTitle {
+    margin-bottom: 40px;
+}
+
+.contactFont {
+    font-size: 1.2rem;
+}
+
+.contactInput {
+    margin-bottom: 8px;
+    width:500px;
+}
+
+.emailInput {
+    height:300px;
+}
+
+.subscribeText {
+    position:relative;
+    bottom:8px;
+}
+
+.subscribeToggle {
+    position:relative;
+    bottom:4px;
+    left:8px;
+    size:20px;
+}
+
+.contactBtn {
+    padding:5px 45px;
+    position:relative;
+    bottom:10px;
+    left:25px;
+}
+
+.techPic {
+    margin-left:80px;
+    margin-top:100px;
+    border-radius: 50%;
+    width:480px;
+    height:430px;
+}
+
+/*Footer*/
+
+.footerSection {
+    background-color: #234449;
+    padding: 70px;
+    text-align: center;
+    color:white;
+}
+
+.sprayImgLink {
+    color:#677a79;
+}
+
+.footerText  {
+    color:#c1c7c7;
+    font-size: 1rem;
+}
+
+.socialMediaLogos {
+    margin:0 10px;
+}
